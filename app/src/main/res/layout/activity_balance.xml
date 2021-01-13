@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BalanceActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BALANCE"
+        android:textSize="50sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Profit"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="sum"
+        android:id="@+id/profit"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Loss"
+        android:textSize="45sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#E70C0C"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="sum"
+        android:id="@+id/loss"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#E70C0C"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Balance"
+        android:textSize="45sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:text="sum"
+        android:id="@+id/totalbalance"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        >
+
+    </TextView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="choose currency type"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:background="#88E78B"
+        android:id="@+id/button_currency"
+        >
+
+    </Button>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvtName"
+            android:text="full name"
+            android:textSize="35sp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDate"
+            android:text="12/10/2019"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvLastDate"
+            android:text="last date:12/10/2019"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvcategory"
+            android:textSize="30sp"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:text="description"
+            android:textStyle="italic"
+            >
+
+        </TextView>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="+100"
+        android:textColor="#16BD1D"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="70dp"
+        android:id="@+id/tvshoeamount"
+        >
+
+    </TextView>
+
+
+
+
+</LinearLayout>

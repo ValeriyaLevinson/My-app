@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pink_white_background"
+    tools:context=".InsertActiviry">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add new favor"
+        android:textSize="40sp"
+        android:layout_marginLeft="60dp"
+        android:textColor="#E40707">
+
+    </TextView>
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="full name"
+        android:textColorHint="#A87278"
+        android:textSize="25dp"
+        android:id="@+id/edittext_name">
+
+    </EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the date"
+        android:textSize="30sp"
+        android:textColor="#E40707"
+        android:layout_marginTop="20dp"
+        >
+
+    </TextView>
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:text="first date"
+        android:textColor="#E40707"
+        android:layout_marginLeft="5dp"
+        android:background="#A87278"
+        android:id="@+id/button_firstdate"
+        >
+
+    </Button>
+
+            <Button
+                android:id="@+id/button_lastdate"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:background="#A87278"
+                android:text="last date"
+                android:textColor="#E40707"
+                android:textSize="15dp">
+
+            </Button>
+        </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pick the category"
+        android:textSize="25sp"
+        android:textColor="#E40707"
+        android:layout_marginTop="20dp"
+        >
+
+    </TextView>
+
+    <Spinner
+        android:layout_marginTop="10dp"
+        android:id="@+id/spinner"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:prompt="@string/spinner_title"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the sum"
+        android:textSize="30sp"
+        android:textColor="#E40707"
+        android:layout_marginTop="20dp"
+        >
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/edittext_sum"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="enter the sum"
+        android:textColorHint="#A87278"
+        android:textSize="25dp">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="+"
+            android:textColor="#2D9C32"
+            android:background="?android:attr/selectableItemBackground"
+            android:id="@+id/button_plus">
+
+        </Button>
+
+        <Button
+            android:layout_marginLeft="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="-"
+            android:textColor="#CC2C21"
+            android:id="@+id/button_minus"
+            android:background="?android:attr/selectableItemBackground">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_add_insertactivity"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:background="#A87278"
+        android:text="add"
+        android:textColor="#E40707"
+        android:textSize="30sp">
+
+    </Button>
+
+
+</LinearLayout>

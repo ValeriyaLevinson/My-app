@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="@drawable/pink_white_background">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update the favor"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#FD697E"
+        android:textStyle="italic"
+        android:id="@+id/options_update_button"
+        >
+
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete the favor"
+        android:textSize="35sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="#FD697E"
+        android:textStyle="italic"
+        android:id="@+id/options_delete_button"
+        >
+
+    </Button>
+
+</LinearLayout>

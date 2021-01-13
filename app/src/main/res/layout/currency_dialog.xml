@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/coins_arranged_backgroud"
+    android:layout_height="300dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="choose currency"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:textStyle="italic"
+        >
+
+    </TextView>
+
+    <Spinner
+        android:layout_marginTop="30dp"
+        android:id="@+id/dialod_currency_spinner"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="55dp"
+        android:prompt="@string/spinner_title"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="ok"
+        android:layout_gravity="center"
+        android:layout_marginTop="30sp"
+        android:background="#16D11D"
+        android:id="@+id/dialog_currency_ok"
+        >
+
+    </Button>
+
+</LinearLayout>

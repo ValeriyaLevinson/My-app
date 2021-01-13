@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    
+    <item
+        android:id="@+id/action_allfavors"
+        android:title="All favors"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+       <item
+        android:id="@+id/action_bycategory"
+        android:title="by category"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_byname"
+        android:title="by name"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_byamounth"
+        android:title="by amounth"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lessthen"
+        android:title="less than amounth"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_morethan"
+        android:title="more than amounth"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_byFirstDate"
+        android:title="by first date"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+
+    <item
+        android:id="@+id/action_byLastDate"
+        android:title="by Last date"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_firstDateBefore"
+        android:title="first date before-"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lastDateBefore"
+        android:title="last date before-"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_firstDateafter"
+        android:title="first date after-"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_lastDateafter"
+        android:title="last date after-"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+
+
+</menu>
